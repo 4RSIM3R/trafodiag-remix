@@ -3,12 +3,14 @@
 import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Button } from "./ui/button";
+import { PhoneIcon } from "lucide-react";
 
 const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "Home", href: "/" },
+  { name: "Feature", href: "/feature" },
+  { name: "Pricing", href: "/pricing" },
+  { name: "About", href: "/about" },
 ];
 
 export default function Header() {
@@ -18,7 +20,7 @@ export default function Header() {
     <header className="bg-white">
       <nav
         aria-label="Global"
-        className="mx-auto flex max-w-7xl items-center justify-between py-6"
+        className="mx-auto flex max-w-7xl items-center justify-between py-6 px-6 lg:px-0"
       >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
@@ -52,9 +54,10 @@ export default function Header() {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Log in <span aria-hidden="true">&rarr;</span>
-          </a>
+          <Button>
+            <PhoneIcon />
+            Contact Us
+          </Button>
         </div>
       </nav>
       <Dialog
@@ -96,12 +99,7 @@ export default function Header() {
                 ))}
               </div>
               <div className="py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Log in
-                </a>
+                <Button>Contact Us</Button>
               </div>
             </div>
           </div>

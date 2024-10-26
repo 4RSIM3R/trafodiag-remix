@@ -91,8 +91,8 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer className="bg-white">
-      <div className="mx-auto max-w-7xl pb-8 pt-16">
+    <footer className="bg-white px-6 lg:px-0">
+      <div className="mx-auto max-w-7xl py-8">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
             <img
@@ -101,8 +101,7 @@ export default function Footer() {
               className="h-9"
             />
             <p className="text-balance text-sm/6 text-gray-600">
-              Making the world a better place through constructing elegant
-              hierarchies.
+              Empowering Predictive Maintenance for a Reliable Future.
             </p>
             <div className="flex gap-x-6">
               {navigation.social.map((item) => (
