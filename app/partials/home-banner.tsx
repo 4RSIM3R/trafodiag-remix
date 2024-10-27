@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next";
+
 export const HomeBanner = () => {
+  let { t } = useTranslation();
+
   return (
     <div id="banner" className="bg-white pt-16 pb-24">
       <div className="px-6 lg:px-0">
@@ -13,9 +17,7 @@ export const HomeBanner = () => {
             <span className="text-blue-600">Transformer Health</span>
           </p>
           <p className="mx-auto max-w-2xl mt-6 text-lg text-gray-600">
-            Trafodiag simplifies transformer monitoring with predictive
-            analytics, leveraging data from oil, paper, and gas tests to prevent
-            issues and extend asset life.
+            {t('home-banner-title')}
           </p>
         </div>
       </div>
