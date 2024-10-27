@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "build": "remix vite:build",
+    "deploy": "wrangler deploy",
     "dev": "remix vite:dev",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
-    "start": "remix-serve ./build/server/index.js",
+    "start": "wrangler dev",
+    "typegen": "wrangler types",
     "typecheck": "tsc"
   },
   "dependencies": {
@@ -15,6 +17,8 @@
     "@heroicons/react": "^2.1.5",
     "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/react-slot": "^1.1.0",
+    "@remix-run/cloudflare": "^2.13.1",
+    "@remix-run/cloudflare-pages": "^2.13.1",
     "@remix-run/node": "^2.13.1",
     "@remix-run/react": "^2.13.1",
     "@remix-run/serve": "^2.13.1",
@@ -25,7 +29,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwind-merge": "^2.5.4",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "wrangler": "^3.83.0"
   },
   "devDependencies": {
     "@remix-run/dev": "^2.13.1",
