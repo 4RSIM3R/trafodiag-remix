@@ -8,17 +8,17 @@ import { ChevronDownIcon, GlobeIcon, PhoneIcon } from "lucide-react";
 import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 import { useTranslation } from "react-i18next";
 
-const navigation = [
-  { name: "Home", href: "/" },
-  { name: "Feature", href: "/feature" },
-  { name: "Pricing", href: "/pricing" },
-  { name: "About", href: "/about" },
-];
-
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const { t, i18n } = useTranslation();
+
+  const navigation = [
+    { name: t('header.home'), href: "/" },
+    { name: t('header.feature'), href: "/feature" },
+    { name: t('header.pricing'), href: "/pricing" },
+    { name: t('header.about'), href: "/about" },
+  ];
 
   return (
     <header className="bg-white">
@@ -28,7 +28,7 @@ export default function Header() {
       >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
+            <span className="sr-only">Trafodiag</span>
             <img
               alt=""
               src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"

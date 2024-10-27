@@ -1,6 +1,0 @@
-
-      
-
-my platform is called "Trafodiag" a platform that will help maintain and tracking transformator health, condition, etc, like sdmeyer if you know
-the main goal for this landing page is to inform people that trafodiag can help solving the transformator health related, trafodiag employ predictive prediction
-data, that collected from various test, like oil index, paper index and dissolved gas analyst

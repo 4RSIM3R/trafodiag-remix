@@ -1,9 +1,98 @@
 {
+    "header": {
+        "home": "Beranda",
+        "feature": "Fitur",
+        "pricing": "Harga",
+        "about": "Tentang"
+    },
     "home": {
         "banner": {
-            "title": "Smart, Prediktif, dan Andal untuk Menjaga",
+            "title": "Cara Cerdas, Prediktif, dan Andal untuk Memastikan",
             "health": "Kesehatan Transformator",
-            "subtitle": "Trafodiag mempermudah pemantauan transformator dengan analitik prediktif, memanfaatkan data dari uji minyak, kertas, dan gas untuk mencegah masalah serta memperpanjang umur aset"
+            "subtitle": "Trafodiag menyederhanakan pemantauan transformator dengan analitik prediktif, memanfaatkan data dari tes minyak, kertas, dan gas untuk mencegah masalah dan memperpanjang umur aset."
+        },
+        "feature": {
+            "title": "Fitur untuk Meningkatkan Kesehatan dan Performa Transformator",
+            "subtitle": "Permudah diagnosis, dapatkan wawasan real-time, dan optimalkan pemeliharaan dengan alat kuat Trafodiag yang dirancang untuk menjaga transformator Anda tetap berjalan lancar.",
+            "effectiveness": {
+                "title": "Efektivitas",
+                "subtitle": "Pemeliharaan Hemat Biaya",
+                "description": "Optimalkan jadwal pemeliharaan, kurangi downtime, dan hemat biaya dengan mencegah kegagalan tak terduga."
+            },
+            "real_time": {
+                "title": "Real-Time",
+                "subtitle": "Pemantauan Real-Time",
+                "description": "Akses data real-time tentang kesehatan transformator, kualitas minyak, dan level gas, semuanya dalam dashboard yang intuitif."
+            },
+            "ai_driven": {
+                "title": "Didukung AI",
+                "subtitle": "Diagnostik Berbasis AI",
+                "description": "Manfaatkan kekuatan kecerdasan buatan untuk memprediksi kegagalan transformator sebelum terjadi."
+            },
+            "comprehensive": {
+                "title": "Komprehensif",
+                "subtitle": "Laporan Komprehensif",
+                "description": "Hasilkan wawasan yang dapat ditindaklanjuti dan laporan terperinci untuk pengambilan keputusan yang tepat."
+            },
+            "user_friendly": {
+                "title": "Mudah Digunakan",
+                "subtitle": "Antarmuka Ramah Pengguna",
+                "description": "Mudah digunakan dengan dashboard yang dapat disesuaikan sesuai kebutuhan Anda."
+            }
+        },
+        "testimony": {
+            "title": "Apa Kata Pelanggan Kami Tentang Trafodiag",
+            "subtitle": "Lihat bagaimana Trafodiag merevolusi manajemen transformator dengan wawasan nyata dari pengguna kami, menyoroti kekuatan analitik prediktif dan pemantauan real-time.",
+            "client": {
+                "first": {
+                    "name": "Yoppy Yunhasnawa",
+                    "review": "NextSales berdiri sebagai bukti kekuatan inspirasi desain dan pemilihan warna yang cermat, menawarkan pengalaman yang menarik secara visual dan intuitif bagi pengguna."
+                },
+                "second": {
+                    "name": "Yoppy Yunhasnawa",
+                    "review": "NextSales berdiri sebagai bukti kekuatan inspirasi desain dan pemilihan warna yang cermat, menawarkan pengalaman yang menarik secara visual dan intuitif bagi pengguna."
+                }
+            },
+            "fact": {
+                "title": "FAKTA & ANGKA",
+                "subtitle": "dari pelanggan merekomendasikan Trafodiag sebagai pilihan utama mereka"
+            },
+            "success": {
+                "title": "CERITA SUKSES",
+                "subtitle": "Dalam membuat dashboard ini, inspirasi dari referensi top seperti Comvi Sales dan berbagai desain Dribbble",
+                "more": "Baca Studi Kasus"
+            }
+        },
+        "cta": {
+            "title": "Mulai Perjalanan Trafodiag Anda",
+            "subtitle": "Mari mulai mengoptimalkan kesehatan transformator Anda dengan Trafodiag! Ingin mencegah kegagalan, mengurangi downtime, dan menghemat biaya pemeliharaan? Trafodiag adalah solusinya!",
+            "contact": "Hubungi Sales"
+        }
+    },
+    "footer": {
+        "tagline": "Memberdayakan Pemeliharaan Prediktif untuk Masa Depan yang Andal.",
+        "solutions": {
+            "title": "Solusi",
+            "effective": "Pemeliharaan Efektif",
+            "realtime": "Pemantauan Real-Time",
+            "ai_driven": "Diagnostik Berbasis AI",
+            "comprehensive": "Laporan Komprehensif",
+            "user_friendly": "Antarmuka Ramah Pengguna"
+        },
+        "support": {
+            "title": "Dukungan",
+            "email": "Email",
+            "official_whatsapp": "WhatsApp Resmi"
+        },
+        "company": {
+            "title": "Perusahaan",
+            "home": "Beranda",
+            "feature": "Fitur",
+            "pricing": "Harga",
+            "about": "Tentang"
+        },
+        "related": {
+            "title": "Tautan Terkait"
         }
     }
 }

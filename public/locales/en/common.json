@@ -1,9 +1,98 @@
 {
-   "home": {
-    "banner": {
-        "title": "Smart, Predictive, and Reliable Way to Ensure",
-        "health": "Transformer Health",
-        "subtitle": "Trafodiag simplifies transformer monitoring with predictive analytics, leveraging data from oil, paper, and gas tests to prevent issues and extend asset life."
+    "header": {
+        "home": "Home",
+        "feature": "Feature",
+        "pricing": "Pricing",
+        "about": "About"
+    },
+    "home": {
+        "banner": {
+            "title": "Smart, Predictive, and Reliable Way to Ensure",
+            "health": "Transformer Health",
+            "subtitle": "Trafodiag simplifies transformer monitoring with predictive analytics, leveraging data from oil, paper, and gas tests to prevent issues and extend asset life."
+        },
+        "feature": {
+            "title": "Features to Elevate Transformer Health and Performance",
+            "subtitle": "Simplify diagnostics, gain real-time insights, and optimize maintenance with Trafodiag's powerful tools designed to keep your transformers running smoothly.",
+            "effectiveness": {
+                "title": "Effectiveness",
+                "subtitle": "Cost-Effective Maintenance",
+                "description": "Optimize maintenance schedules, reduce downtime, and save costs by preventing unexpected failures."
+            },
+            "real_time": {
+                "title": "Real-Time",
+                "subtitle": "Real-Time Monitoring",
+                "description": "Access real-time data on transformer health, oil quality, and gas levels, all in one intuitive dashboard."
+            },
+            "ai_driven": {
+                "title": "AI-Driven",
+                "subtitle": "AI-Driven Diagnostics",
+                "description": "Harness the power of artificial intelligence to predict transformer failures before they happen."
+            },
+            "comprehensive": {
+                "title": "Comprehensive",
+                "subtitle": "Comprehensive Report",
+                "description": "Generate actionable insights and detailed reports for informed decision-making."
+            },
+            "user_friendly": {
+                "title": "User Friendly",
+                "subtitle": "User Friendly Interface",
+                "description": "Easy to use with customizable dashboards tailored to your needs."
+            }
+        },
+        "testimony": {
+            "title": "What Our Customers Say About Trafodiag",
+            "subtitle": "See how Trafodiag revolutionizes transformer management with real insights from our users, highlighting the power of predictive analytics and real-time monitoring.",
+            "client": {
+                "first": {
+                    "name": "Yoppy Yunhasnawa",
+                    "review": "NextSales stands as a testament to the power of design inspiration and careful color selection, offering a visually striking and intuitive experience for users"
+                },
+                "second": {
+                    "name": "Yoppy Yunhasnawa",
+                    "review": "NextSales stands as a testament to the power of design inspiration and careful color selection, offering a visually striking and intuitive experience for users"
+                }
+            },
+            "fact": {
+                "title": "FACTS & NUMBERS",
+                "subtitle": "of customers recomended trafodiag as their main"
+            },
+            "success": {
+                "title": "SUCCESS STORIES",
+                "subtitle": "In making this dashboard, inspiration from top references like Comvi Sales and various Dribbble designs",
+                "more": "Read Study Case"
+            }
+        },
+        "cta": {
+            "title": "Start Your Trafodiag Journey",
+            "subtitle": "Let’s begin optimizing your transformer health with Trafodiag! Do you want to prevent failures, reduce downtime, and save on maintenance costs? Trafodiag is the solution!",
+            "contact": "Contact Sales"
+        }
+    },
+    "footer": {
+        "tagline": "Empowering Predictive Maintenance for a Reliable Future.",
+        "solutions": {
+            "title": "Solutions",
+            "effective": "Effective Maintenance",
+            "realtime": "Real-Time Monitoring",
+            "ai_driven": "AI-Driven Diagnostics",
+            "comprehensive": "Comprehensive Report",
+            "user_friendly": "User Friendly Interface"
+        },
+        "support": {
+            "title": "Support",
+            "email": "Email",
+            "official_whatsapp": "Official Whatsapp"
+        },
+        "company": {
+            "title": "Company",
+            "home": "Home",
+            "feature": "Fitur",
+            "pricing": "Pricing",
+            "about": "About"
+        },
+        "related": {
+            "title": "Related Link"
+        }
     }
-   }
 }
