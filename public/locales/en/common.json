@@ -1,3 +1,9 @@
 {
-    "home-banner-title": "Home Banner Title"
+   "home": {
+    "banner": {
+        "title": "Smart, Predictive, and Reliable Way to Ensure",
+        "health": "Transformer Health",
+        "subtitle": "Trafodiag simplifies transformer monitoring with predictive analytics, leveraging data from oil, paper, and gas tests to prevent issues and extend asset life."
+    }
+   }
 }

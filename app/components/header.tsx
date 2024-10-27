@@ -4,7 +4,9 @@ import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Button } from "./ui/button";
-import { PhoneIcon } from "lucide-react";
+import { ChevronDownIcon, GlobeIcon, PhoneIcon } from "lucide-react";
+import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
+import { useTranslation } from "react-i18next";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -15,6 +17,8 @@ const navigation = [
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const { t, i18n } = useTranslation();
 
   return (
     <header className="bg-white">
@@ -54,10 +58,47 @@ export default function Header() {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Button>
-            <PhoneIcon />
-            Contact Us
-          </Button>
+          <Popover>
+            <PopoverTrigger asChild>
+              <Button variant="outline" className="flex items-center gap-2">
+                <GlobeIcon className="h-5 w-5" />
+                <span>{i18n.language == "en" ? "EN" : "ID"}</span>
+                <ChevronDownIcon className="h-4 w-4" />
+              </Button>
+            </PopoverTrigger>
+            <PopoverContent className="w-56 p-2">
+              <div className="grid gap-1">
+                <Button
+                  onClick={() => {
+                    i18n.changeLanguage("en");
+                  }}
+                  variant="ghost"
+                  className="justify-start"
+                >
+                  <img
+                    className="h-4 w-3"
+                    src="https://flagicons.lipis.dev/flags/4x3/gb-eng.svg"
+                    alt=""
+                  />
+                  <span>ENGLISH</span>
+                </Button>
+                <Button
+                  onClick={() => {
+                    i18n.changeLanguage("id");
+                  }}
+                  variant="ghost"
+                  className="justify-start"
+                >
+                  <img
+                    className="h-4 w-3"
+                    src="https://flagicons.lipis.dev/flags/4x3/id.svg"
+                    alt=""
+                  />
+                  <span>INDONESIA</span>
+                </Button>
+              </div>
+            </PopoverContent>
+          </Popover>
         </div>
       </nav>
       <Dialog
@@ -99,7 +140,28 @@ export default function Header() {
                 ))}
               </div>
               <div className="py-6">
-                <Button>Contact Us</Button>
+                <Popover>
+                  <PopoverTrigger asChild>
+                    <Button
+                      variant="outline"
+                      className="flex items-center gap-2"
+                    >
+                      <GlobeIcon className="h-5 w-5" />
+                      <span>English</span>
+                      <ChevronDownIcon className="h-4 w-4" />
+                    </Button>
+                  </PopoverTrigger>
+                  <PopoverContent className="w-56 p-2">
+                    <div className="grid gap-1">
+                      <Button variant="ghost" className="justify-start">
+                        <span>English</span>
+                      </Button>
+                      <Button variant="ghost" className="justify-start">
+                        <span>Idnonesia</span>
+                      </Button>
+                    </div>
+                  </PopoverContent>
+                </Popover>
               </div>
             </div>
           </div>

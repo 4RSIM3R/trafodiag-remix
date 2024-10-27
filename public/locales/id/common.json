@@ -1,3 +1,9 @@
 {
-    "home-banner-title": "Judul Banner Beranda"
+    "home": {
+        "banner": {
+            "title": "Smart, Prediktif, dan Andal untuk Menjaga",
+            "health": "Kesehatan Transformator",
+            "subtitle": "Trafodiag mempermudah pemantauan transformator dengan analitik prediktif, memanfaatkan data dari uji minyak, kertas, dan gas untuk mencegah masalah serta memperpanjang umur aset"
+        }
+    }
 }

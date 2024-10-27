@@ -7,17 +7,12 @@ export const HomeBanner = () => {
     <div id="banner" className="bg-white pt-16 pb-24">
       <div className="px-6 lg:px-0">
         <div className="mx-auto max-w-3xl text-center">
-          {/* <div className="mx-auto px-2 py-1 bg-blue-50 w-48 rounded-sm mb-4">
-            <p className="text-base font-semibold leading-7 text-blue-600">
-              TAGLINE HERE 🔥
-            </p>
-          </div> */}
           <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-balance sm:text-5xl">
-            Smart, Predictive, and Reliable Way to Ensure{" "}
-            <span className="text-blue-600">Transformer Health</span>
+            {t("home.banner.title")}{" "}
+            <span className="text-blue-600">{t("home.banner.health")}</span>
           </p>
           <p className="mx-auto max-w-2xl mt-6 text-lg text-gray-600">
-            {t('home-banner-title')}
+            {t("home.banner.subtitle")}
           </p>
         </div>
       </div>
