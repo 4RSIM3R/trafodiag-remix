@@ -1,15 +1,17 @@
+import { useTranslation } from "react-i18next";
+
 export const HomeFeature = () => {
+  const { t } = useTranslation();
+
   return (
     <div id="feature" className="pb-24 px-6 lg:px-0">
       <div className="">
         <div className="mx-auto max-w-4xl sm:text-center">
           <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-balance sm:text-5xl">
-            Features to Elevate Transformer Health and Performance
+            {t("home.feature.title")}
           </p>
           <p className="mx-auto max-w-2xl mt-6 text-lg text-gray-600">
-            Simplify diagnostics, gain real-time insights, and optimize
-            maintenance with Trafodiag's powerful tools designed to keep your
-            transformers running smoothly.
+            {t("home.feature.subtitle")}
           </p>
         </div>
       </div>
@@ -24,14 +26,13 @@ export const HomeFeature = () => {
             />
             <div className="p-10 pt-4">
               <h3 className="text-sm/4 font-semibold text-blue-600">
-                Effectiveness
+                {t("home.feature.effectiveness.title")}
               </h3>
               <p className="mt-2 text-lg/7 font-medium tracking-tight text-gray-950">
-                Cost-Effective Maintenance
+                {t("home.feature.effectiveness.subtitle")}
               </p>
               <p className="mt-2 max-w-lg text-sm/6 text-gray-600">
-                Optimize maintenance schedules, reduce downtime, and save costs
-                by preventing unexpected failures.
+                {t("home.feature.effectiveness.description")}
               </p>
             </div>
           </div>
@@ -47,14 +48,13 @@ export const HomeFeature = () => {
             />
             <div className="p-10 pt-4">
               <h3 className="text-sm/4 font-semibold text-blue-600">
-                Real-Time
+                {t("home.feature.real_time.title")}
               </h3>
               <p className="mt-2 text-lg/7 font-medium tracking-tight text-gray-950">
-                Real-Time Monitoring
+                {t("home.feature.real_time.subtitle")}
               </p>
               <p className="mt-2 max-w-lg text-sm/6 text-gray-600">
-                Access real-time data on transformer health, oil quality, and
-                gas levels, all in one intuitive dashboard.
+                {t("home.feature.real_time.description")}
               </p>
             </div>
           </div>
@@ -70,14 +70,13 @@ export const HomeFeature = () => {
             />
             <div className="p-10 pt-4">
               <h3 className="text-sm/4 font-semibold text-blue-600">
-                AI-Driven
+                {t("home.feature.ai_driven.title")}
               </h3>
               <p className="mt-2 text-lg/7 font-medium tracking-tight text-gray-950">
-                AI-Driven Diagnostics
+                {t("home.feature.ai_driven.subtitle")}
               </p>
               <p className="mt-2 max-w-lg text-sm/6 text-gray-600">
-                Harness the power of artificial intelligence to predict
-                transformer failures before they happen.
+                {t("home.feature.ai_driven.description")}
               </p>
             </div>
           </div>
@@ -93,14 +92,13 @@ export const HomeFeature = () => {
             />
             <div className="p-10 pt-4">
               <h3 className="text-sm/4 font-semibold text-blue-600">
-                Comprehensive
+                {t("home.feature.comprehensive.title")}
               </h3>
               <p className="mt-2 text-lg/7 font-medium tracking-tight text-gray-950">
-                Comprehensive Report
+                {t("home.feature.comprehensive.subtitle")}
               </p>
               <p className="mt-2 max-w-lg text-sm/6 text-gray-600">
-                Generate actionable insights and detailed reports for informed
-                decision-making.
+                {t("home.feature.comprehensive.description")}
               </p>
             </div>
           </div>
@@ -116,13 +114,13 @@ export const HomeFeature = () => {
             />
             <div className="p-10 pt-4">
               <h3 className="text-sm/4 font-semibold text-blue-600">
-                User Friendly
+                {t("home.feature.user_friendly.title")}
               </h3>
               <p className="mt-2 text-lg/7 font-medium tracking-tight text-gray-950">
-                User Friendly Interface
+                {t("home.feature.user_friendly.subtitle")}
               </p>
               <p className="mt-2 max-w-lg text-sm/6 text-gray-600">
-                Easy to use with customizable dashboards tailored to your needs.
+                {t("home.feature.user_friendly.description")}
               </p>
             </div>
           </div>

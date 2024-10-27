@@ -15,7 +15,6 @@ export default function Header() {
 
   const navigation = [
     { name: t('header.home'), href: "/" },
-    { name: t('header.feature'), href: "/feature" },
     { name: t('header.pricing'), href: "/pricing" },
     { name: t('header.about'), href: "/about" },
   ];
@@ -51,7 +50,7 @@ export default function Header() {
             <a
               key={item.name}
               href={item.href}
-              className="text-sm font-semibold leading-6 text-gray-900"
+              className="text-base font-semibold leading-6 text-gray-900"
             >
               {item.name}
             </a>

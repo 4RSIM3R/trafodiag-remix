@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 
 export const HomeBanner = () => {
-  let { t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div id="banner" className="bg-white pt-16 pb-24">
