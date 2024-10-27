@@ -23,7 +23,7 @@ export const HomeFeature = () => {
               className="h-80 object-cover object-left"
             />
             <div className="p-10 pt-4">
-              <h3 className="text-sm/4 font-semibold text-indigo-600">
+              <h3 className="text-sm/4 font-semibold text-blue-600">
                 Effectiveness
               </h3>
               <p className="mt-2 text-lg/7 font-medium tracking-tight text-gray-950">
@@ -46,7 +46,7 @@ export const HomeFeature = () => {
               className="h-80 object-cover object-left lg:object-right"
             />
             <div className="p-10 pt-4">
-              <h3 className="text-sm/4 font-semibold text-indigo-600">
+              <h3 className="text-sm/4 font-semibold text-blue-600">
                 Real-Time
               </h3>
               <p className="mt-2 text-lg/7 font-medium tracking-tight text-gray-950">
@@ -69,7 +69,7 @@ export const HomeFeature = () => {
               className="h-80 object-cover object-left"
             />
             <div className="p-10 pt-4">
-              <h3 className="text-sm/4 font-semibold text-indigo-600">
+              <h3 className="text-sm/4 font-semibold text-blue-600">
                 AI-Driven
               </h3>
               <p className="mt-2 text-lg/7 font-medium tracking-tight text-gray-950">
@@ -92,7 +92,7 @@ export const HomeFeature = () => {
               className="h-80 object-cover object-center"
             />
             <div className="p-10 pt-4">
-              <h3 className="text-sm/4 font-semibold text-indigo-600">
+              <h3 className="text-sm/4 font-semibold text-blue-600">
                 Comprehensive
               </h3>
               <p className="mt-2 text-lg/7 font-medium tracking-tight text-gray-950">
@@ -115,7 +115,7 @@ export const HomeFeature = () => {
               className="h-80 object-cover object-center"
             />
             <div className="p-10 pt-4">
-              <h3 className="text-sm/4 font-semibold text-indigo-600">
+              <h3 className="text-sm/4 font-semibold text-blue-600">
                 User Friendly
               </h3>
               <p className="mt-2 text-lg/7 font-medium tracking-tight text-gray-950">
