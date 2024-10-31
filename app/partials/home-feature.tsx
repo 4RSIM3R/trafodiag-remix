@@ -4,7 +4,7 @@ export const HomeFeature = () => {
   const { t } = useTranslation();
 
   return (
-    <div id="feature" className="pb-24 px-6 lg:px-3">
+    <div id="feature" className="pb-24 px-6 lg:px-4">
       <div className="">
         <div className="mx-auto max-w-4xl sm:text-center">
           <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-balance sm:text-5xl">

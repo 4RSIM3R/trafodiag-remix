@@ -6,7 +6,7 @@ export const HomeCta = () => {
 
   return (
     <>
-      <div id="cta" className="pb-24 px-6 lg:px-3">
+      <div id="cta" className="pb-24 px-6 lg:px-4">
         <div className="relative isolate overflow-hidden bg-blue-600 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
           <svg
             viewBox="0 0 1024 1024"
