@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <>
       <div className="overflow-hidden bg-white pt-16 pb-24">
-      <div className="mx-auto max-w-2xl px-6 lg:px-0 lg:max-w-7xl">
+      <div className="mx-auto max-w-2xl px-6 lg:px-3 lg:max-w-7xl">
         <div className="max-w-4xl">
           <p className="text-base font-semibold leading-7 text-blue-600">About us</p>
           <h1 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">

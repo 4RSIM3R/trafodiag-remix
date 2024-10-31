@@ -91,7 +91,7 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer className="bg-white px-6 lg:px-0">
+    <footer className="bg-white px-6 lg:px-3">
       <div className="mx-auto max-w-7xl py-8">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">

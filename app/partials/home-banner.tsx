@@ -5,7 +5,7 @@ export const HomeBanner = () => {
 
   return (
     <div id="banner" className="bg-white pt-16 pb-24">
-      <div className="px-6 lg:px-0">
+      <div className="px-6 lg:px-3">
         <div className="mx-auto max-w-3xl text-center">
           <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-balance sm:text-5xl">
             {t("home.banner.title")}{" "}

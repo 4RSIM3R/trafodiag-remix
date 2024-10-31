@@ -99,7 +99,7 @@ export default function Pricing() {
   return (
     <>
       <div className="bg-white pt-16 pb-24 overflow-hidden">
-        <div className="mx-auto max-w-7xl px-6 lg:px-0">
+        <div className="mx-auto max-w-7xl px-6 lg:px-3">
           <div className="mx-auto max-w-4xl text-center">
             <h2 className="text-base font-semibold leading-7 text-blue-600">
               Pricing

@@ -6,7 +6,7 @@ export const HomeClient = () => {
 
   return (
     <>
-      <div id="client" className="px-6 lg:px-0">
+      <div id="client" className="px-6 lg:px-3">
         <div className="">
           <div className="mx-auto max-w-4xl sm:text-center">
             <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-balance sm:text-5xl">
