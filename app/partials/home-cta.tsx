@@ -1,3 +1,4 @@
+import { Link } from "@remix-run/react";
 import { useTranslation } from "react-i18next";
 import { Button } from "~/components/ui/button";
 
@@ -35,7 +36,9 @@ export const HomeCta = () => {
               {t("home.cta.subtitle")}
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-              <Button variant="secondary"> {t("home.cta.contact")}</Button>
+              <a href="mailto:rahmanazisp@polinema.ac.id">
+                <Button variant="secondary"> {t("home.cta.contact")}</Button>
+              </a>
             </div>
           </div>
           <div className="relative mt-16 h-80 lg:mt-8">
