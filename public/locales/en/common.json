@@ -45,27 +45,27 @@
             "subtitle": "See how Trafodiag revolutionizes transformer management with real insights from our users, highlighting the power of predictive analytics and real-time monitoring.",
             "client": {
                 "first": {
-                    "name": "Yoppy Yunhasnawa",
-                    "review": "NextSales stands as a testament to the power of design inspiration and careful color selection, offering a visually striking and intuitive experience for users"
+                    "name": "Trafodiag Customer",
+                    "review": "Saya sangat terkesan dengan desain website ini, Desainnya modern dan sangat intuitif, Tampilan dan tata letak website sangat menarik, Dan fitur pencarian di website ini sangat membantu."
                 },
                 "second": {
-                    "name": "Yoppy Yunhasnawa",
-                    "review": "NextSales stands as a testament to the power of design inspiration and careful color selection, offering a visually striking and intuitive experience for users"
+                    "name": "Trafodiag Customer",
+                    "review": "Saya sangat kagum dengan desain website ini. Desainnya terlihat modern dan sangat mudah dipahami."
                 }
             },
             "fact": {
                 "title": "FACTS & NUMBERS",
-                "subtitle": "of customers recomended trafodiag as their main"
+                "subtitle": "recomend trafodiag as your best transformer management tool"
             },
             "success": {
                 "title": "SUCCESS STORIES",
-                "subtitle": "In making this dashboard, inspiration from top references like Comvi Sales and various Dribbble designs",
+                "subtitle": "Learn how trafodiag has helped PLN NP improve their transformer health and performance",
                 "more": "Read Study Case"
             }
         },
         "cta": {
             "title": "Start Your Trafodiag Journey",
-            "subtitle": "Let’s begin optimizing your transformer health with Trafodiag! Do you want to prevent failures, reduce downtime, and save on maintenance costs? Trafodiag is the solution!",
+            "subtitle": "Lets begin optimizing your transformer health with Trafodiag! Do you want to prevent failures, reduce downtime, and save on maintenance costs? Trafodiag is the solution!",
             "contact": "Contact Sales"
         }
     },

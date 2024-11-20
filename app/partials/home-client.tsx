@@ -21,7 +21,7 @@ export const HomeClient = () => {
           <div className="lg:col-span-4 relative">
             <div className="w-full h-96 relative">
               <img
-                src="https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p2/01/2023/04/06/PLN-NP-ist-1081238363.jpg"
+                src="/assets/trafo.jpg"
                 alt="Jolotundo Background"
                 className="absolute inset-0 w-full h-full object-cover rounded-md"
               />
@@ -54,7 +54,7 @@ export const HomeClient = () => {
             <p className="capitalize text-lg text-white">{t("home.testimony.success.title")}</p>
             <img
               className="grow max-h-44 object-cover rounded-sm"
-              src="https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p2/01/2023/04/06/PLN-NP-ist-1081238363.jpg"
+              src="/assets/trafo.jpg"
               alt=""
             />{" "}
             {/* make this image height dynamic, */}
