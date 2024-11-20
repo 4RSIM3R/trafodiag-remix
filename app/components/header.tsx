@@ -45,7 +45,7 @@ export default function Header() {
             <Bars3Icon aria-hidden="true" className="h-6 w-6" />
           </button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-12">
+        {/* <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
             <a
               key={item.name}
@@ -55,7 +55,7 @@ export default function Header() {
               {item.name}
             </a>
           ))}
-        </div>
+        </div> */}
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Popover>
             <PopoverTrigger asChild>
@@ -127,7 +127,7 @@ export default function Header() {
           </div>
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
-              <div className="space-y-2 py-6">
+              {/* <div className="space-y-2 py-6">
                 {navigation.map((item) => (
                   <a
                     key={item.name}
@@ -137,7 +137,7 @@ export default function Header() {
                     {item.name}
                   </a>
                 ))}
-              </div>
+              </div> */}
               <div className="py-6">
                 <Popover>
                   <PopoverTrigger asChild>
