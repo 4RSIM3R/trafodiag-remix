@@ -52,7 +52,7 @@ export const HomeBanner = () => {
               <div className="relative pb-[56.25%] h-0 overflow-hidden">
                 <video className="absolute top-0 left-0 w-full h-full rounded-lg" controls>
                   <source
-                    src="https://docs.material-tailwind.com/demo.mp4"
+                    src="https://pub-54efd32242ed421ba429b84a1acef133.r2.dev/trafodiag.mp4"
                     type="video/mp4"
                   />
                   Your browser does not support the video tag.
