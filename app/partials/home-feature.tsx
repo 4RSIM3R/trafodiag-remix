@@ -21,7 +21,7 @@ export const HomeFeature = () => {
           <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)] lg:rounded-tl-[calc(2rem+1px)]">
             <img
               alt=""
-              src="https://tailwindui.com/plus/img/component-images/bento-01-performance.png"
+              src="/assets/cost.png"
               className="h-80 object-cover object-left"
             />
             <div className="p-10 pt-4">
@@ -43,7 +43,7 @@ export const HomeFeature = () => {
           <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] lg:rounded-tr-[calc(2rem+1px)]">
             <img
               alt=""
-              src="https://tailwindui.com/plus/img/component-images/bento-01-releases.png"
+              src="/assets/realtime.png"
               className="h-80 object-cover object-left lg:object-right"
             />
             <div className="p-10 pt-4">
@@ -65,7 +65,7 @@ export const HomeFeature = () => {
           <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] lg:rounded-bl-[calc(2rem+1px)]">
             <img
               alt=""
-              src="https://tailwindui.com/plus/img/component-images/bento-01-speed.png"
+              src="/assets/ai.png"
               className="h-80 object-cover object-left"
             />
             <div className="p-10 pt-4">
@@ -87,7 +87,7 @@ export const HomeFeature = () => {
           <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)]">
             <img
               alt=""
-              src="https://tailwindui.com/plus/img/component-images/bento-01-integrations.png"
+              src="/assets/report.png"
               className="h-80 object-cover object-center"
             />
             <div className="p-10 pt-4">
@@ -109,7 +109,7 @@ export const HomeFeature = () => {
           <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-br-[calc(2rem+1px)]">
             <img
               alt=""
-              src="https://tailwindui.com/plus/img/component-images/bento-01-network.png"
+              src="/assets/friendly.png"
               className="h-80 object-cover object-center"
             />
             <div className="p-10 pt-4">

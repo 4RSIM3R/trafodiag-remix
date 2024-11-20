@@ -34,7 +34,7 @@ export const HomeBanner = () => {
             onClick={handleOpenModal}
           >
             <img
-              src="https://tailwindui.com/plus/img/component-images/project-app-screenshot.png"
+              src="/assets/dashboard.png"
               width={2432}
               height={1442}
               className="rounded-xl"

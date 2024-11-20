@@ -22,7 +22,7 @@ const navigation = {
   legal: [
     { name: "Terms of service", href: "#" },
     { name: "Privacy policy", href: "#" },
-    { name: "License", href: "#" },
+    { name: "Business illustrations by Storyset", href: "https://storyset.com/business" },
   ],
   social: [
     {
