@@ -61,9 +61,6 @@ export const HomeClient = () => {
             <p className="text-white">
             {t("home.testimony.success.subtitle")}
             </p>
-            <div>
-              <Button variant="secondary">{t("home.testimony.success.more")}</Button>
-            </div>
           </div>
           <div className="h-96 relative lg:col-span-4 p-6 bg-gray-200 rounded-md flex flex-col justify-between">
             <div>

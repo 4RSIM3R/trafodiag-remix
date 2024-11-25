@@ -46,11 +46,11 @@
             "client": {
                 "first": {
                     "name": "Trafodiag Customer",
-                    "review": "Saya sangat terkesan dengan desain website ini, Desainnya modern dan sangat intuitif, Tampilan dan tata letak website sangat menarik, Dan fitur pencarian di website ini sangat membantu."
+                    "review": "TrafoDiag offers a superior solution for asset management and transformer condition assessment, featuring comprehensive diagnostics powered by artificial intelligence. Its intuitive design enables users to access critical information and make quick, accurate decisions, making transformer management more efficient and reliable."
                 },
                 "second": {
                     "name": "Trafodiag Customer",
-                    "review": "Saya sangat kagum dengan desain website ini. Desainnya terlihat modern dan sangat mudah dipahami."
+                    "review": "TrafoDiag delivers tangible benefits in enhancing the reliability and operational efficiency of power transformers through advanced inspection and testing data analysis and management capabilities. Supported by AI-driven early fault prediction, TrafoDiag enables more accurate maintenance and operational decision-making."
                 }
             },
             "fact": {
@@ -59,7 +59,7 @@
             },
             "success": {
                 "title": "SUCCESS STORIES",
-                "subtitle": "Learn how trafodiag has helped PLN NP improve their transformer health and performance",
+                "subtitle": "Learn how trafodiag has helped PLN Nusantara Power improve their transformer health and performance",
                 "more": "Read Study Case"
             }
         },
@@ -87,7 +87,7 @@
         "company": {
             "title": "Company",
             "home": "Home",
-            "feature": "Fitur",
+            "feature": "Feature",
             "pricing": "Pricing",
             "about": "About"
         },

@@ -2,27 +2,22 @@ import { SVGProps } from "react";
 
 const navigation = {
   solutions: [
-    { name: "Marketing", href: "#" },
-    { name: "Analytics", href: "#" },
-    { name: "Automation", href: "#" },
-    { name: "Commerce", href: "#" },
-    { name: "Insights", href: "#" },
+    { name: "Youtube", href: "#" },
+    { name: "Instagram", href: "#" },
   ],
   support: [
-    { name: "Submit ticket", href: "#" },
-    { name: "Documentation", href: "#" },
-    { name: "Guides", href: "#" },
+    { name: "Polinema", href: "#" },
+    { name: "Dirjen Vokasi", href: "#" },
+    { name: "Kemendikbud", href: "#" },
   ],
   company: [
-    { name: "About", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Jobs", href: "#" },
-    { name: "Press", href: "#" },
+    { name: "Rahman Aziz Prasojo", href: "#" },
+    { name: "Yoppy Yunhasnawa", href: "#" },
+    { name: "Muhammad Fahmi Hakim", href: "#" },
+    { name: "Rohmanita Duanaputri", href: "#" },
   ],
   legal: [
-    { name: "Terms of service", href: "#" },
-    { name: "Privacy policy", href: "#" },
-    { name: "Business illustrations by Storyset", href: "https://storyset.com/business" },
+    { name: "PLN Nusantara Power", href: "#" },
   ],
   social: [
     {
@@ -66,7 +61,7 @@ export default function Footer() {
               className="h-9"
             />
             <p className="text-balance text-sm/6 text-gray-600">
-            Penelitian Produk Vokasi (P2V) Funded by Direktorat Jenderal Pendidikan Vokasi, Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi Republik Indonesia, 2024.
+              Penelitian Produk Vokasi (P2V) Funded by Direktorat Jenderal Pendidikan Vokasi, Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi Republik Indonesia, 2024.
             </p>
             <div className="flex gap-x-6">
               {navigation.social.map((item) => (
@@ -85,7 +80,7 @@ export default function Footer() {
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm/6 font-semibold text-gray-900">
-                  Solutions
+                  Sosial Media
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.solutions.map((item) => (
@@ -102,7 +97,7 @@ export default function Footer() {
               </div>
               <div className="mt-10 md:mt-0">
                 <h3 className="text-sm/6 font-semibold text-gray-900">
-                  Support
+                  Link Terkait
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.support.map((item) => (
@@ -121,7 +116,7 @@ export default function Footer() {
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm/6 font-semibold text-gray-900">
-                  Company
+                  Tentang
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.company.map((item) => (
@@ -156,7 +151,7 @@ export default function Footer() {
         </div>
         <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
           <p className="text-sm/6 text-gray-600">
-            &copy; 2024 Your Company, Inc. All rights reserved.
+            &copy; 2024 Trafodiag, Inc. All rights reserved.
           </p>
         </div>
       </div>
