@@ -65,7 +65,7 @@ export default function Footer() {
               className="h-9"
             />
             <p className="text-balance text-sm/6 text-gray-600">
-              
+              {t("footer.tagline")}
             </p>
             <div className="flex gap-x-6">
               {navigation.social.map((item) => (
