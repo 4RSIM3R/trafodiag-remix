@@ -2,22 +2,22 @@ import { SVGProps } from "react";
 
 const navigation = {
   solutions: [
-    { name: "Youtube", href: "#" },
-    { name: "Instagram", href: "#" },
+    { name: "Youtube", href: "http://www.youtube.com/@TrafoDiag" },
+    { name: "Instagram", href: "https://www.instagram.com/trafodiag/" },
   ],
   support: [
-    { name: "Polinema", href: "#" },
-    { name: "Dirjen Vokasi", href: "#" },
-    { name: "Kemendikbud", href: "#" },
+    { name: "Polinema", href: "https://www.polinema.ac.id/" },
+    { name: "Direktorat Jenderal Pendidikan Vokasi", href: "https://www.vokasi.kemdikbud.go.id/" },
+    { name: "Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi", href: "https://www.kemdikbud.go.id/" },
   ],
   company: [
-    { name: "Rahman Aziz Prasojo", href: "#" },
-    { name: "Yoppy Yunhasnawa", href: "#" },
-    { name: "Muhammad Fahmi Hakim", href: "#" },
-    { name: "Rohmanita Duanaputri", href: "#" },
+    { name: "Rahman Aziz Prasojo", href: "https://www.linkedin.com/in/rahman-azis-prasojo/" },
+    { name: "Yoppy Yunhasnawa", href: "https://www.linkedin.com/in/yunhasnawa/" },
+    { name: "Muhammad Fahmi Hakim", href: "https://scholar.google.com/citations?user=0KYBSRwAAAAJ&hl=id" },
+    { name: "Rohmanita Duanaputri", href: "https://scholar.google.com/citations?user=KCKRCqUAAAAJ&hl=en" },
   ],
   legal: [
-    { name: "PLN Nusantara Power", href: "#" },
+    { name: "PLN Nusantara Power", href: "https://www.plnnusantarapower.co.id/" },
   ],
   social: [
     {
@@ -56,8 +56,8 @@ export default function Footer() {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
             <img
-              alt="Company name"
-              src="https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/trafodiag_logo.png"
+              alt="Trafodiag"
+              src="/assets/logo.png"
               className="h-9"
             />
             <p className="text-balance text-sm/6 text-gray-600">
@@ -116,7 +116,7 @@ export default function Footer() {
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm/6 font-semibold text-gray-900">
-                  Tentang
+                  Member
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.company.map((item) => (
@@ -132,7 +132,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-sm/6 font-semibold text-gray-900">Legal</h3>
+                <h3 className="text-sm/6 font-semibold text-gray-900">Kerjasama</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.legal.map((item) => (
                     <li key={item.name}>

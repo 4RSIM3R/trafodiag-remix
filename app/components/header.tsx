@@ -30,7 +30,7 @@ export default function Header() {
             <span className="sr-only">Trafodiag</span>
             <img
               alt=""
-              src="https://pub-c8bebddd72ea42bb9b2a388bb3d5cca5.r2.dev/trafodiag_logo.png"
+              src="/assets/logo.png"
               className="h-8 w-auto"
             />
           </a>

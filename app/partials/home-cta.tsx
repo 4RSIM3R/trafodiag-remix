@@ -43,7 +43,7 @@ export const HomeCta = () => {
           <div className="relative mt-16 h-80 lg:mt-8">
             <img
               alt="App screenshot"
-              src="/assets/dashboard.png"
+              src="/assets/ss.png"
               width={1824}
               height={1080}
               className="absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
