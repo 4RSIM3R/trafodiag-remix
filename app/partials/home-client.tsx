@@ -54,7 +54,7 @@ export const HomeClient = () => {
             <p className="capitalize text-lg text-white">{t("home.testimony.success.title")}</p>
             <img
               className="grow max-h-44 object-cover rounded-sm"
-              src="/assets/trafo.jpg"
+              src="/assets/np.jpg"
               alt=""
             />{" "}
             {/* make this image height dynamic, */}

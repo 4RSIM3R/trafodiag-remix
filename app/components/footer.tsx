@@ -1,4 +1,5 @@
 import { SVGProps } from "react";
+import { useTranslation } from "react-i18next";
 
 const navigation = {
   solutions: [
@@ -50,6 +51,9 @@ const navigation = {
 };
 
 export default function Footer() {
+
+  const { t } = useTranslation();
+
   return (
     <footer className="bg-white px-6 lg:px-4">
       <div className="mx-auto max-w-7xl py-8">
@@ -61,7 +65,7 @@ export default function Footer() {
               className="h-9"
             />
             <p className="text-balance text-sm/6 text-gray-600">
-              Penelitian Produk Vokasi (P2V) Funded by Direktorat Jenderal Pendidikan Vokasi, Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi Republik Indonesia, 2024.
+              
             </p>
             <div className="flex gap-x-6">
               {navigation.social.map((item) => (
@@ -80,7 +84,7 @@ export default function Footer() {
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm/6 font-semibold text-gray-900">
-                  Sosial Media
+                  {t("footer.socmed.title")}
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.solutions.map((item) => (
@@ -97,7 +101,7 @@ export default function Footer() {
               </div>
               <div className="mt-10 md:mt-0">
                 <h3 className="text-sm/6 font-semibold text-gray-900">
-                  Link Terkait
+                  {t("footer.related.title")}
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.support.map((item) => (
@@ -116,7 +120,7 @@ export default function Footer() {
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm/6 font-semibold text-gray-900">
-                  Member
+                  {t("footer.member.title")}
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.company.map((item) => (
@@ -132,7 +136,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-sm/6 font-semibold text-gray-900">Kerjasama</h3>
+                <h3 className="text-sm/6 font-semibold text-gray-900">{t("footer.partner.title")}</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.legal.map((item) => (
                     <li key={item.name}>

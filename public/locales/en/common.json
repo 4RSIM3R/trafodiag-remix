@@ -70,26 +70,15 @@
         }
     },
     "footer": {
-        "tagline": "Empowering Predictive Maintenance for a Reliable Future.",
-        "solutions": {
-            "title": "Solutions",
-            "effective": "Effective Maintenance",
-            "realtime": "Real-Time Monitoring",
-            "ai_driven": "AI-Driven Diagnostics",
-            "comprehensive": "Comprehensive Report",
-            "user_friendly": "User Friendly Interface"
+        "tagline": "Vocational Product Research (P2V) Funded by the Directorate General of Vocational Education, Ministry of Education, Culture, Research, and Technology of the Republic of Indonesia, 2024.",
+        "socmed": {
+            "title": "Social Media"
         },
-        "support": {
-            "title": "Support",
-            "email": "Email",
-            "official_whatsapp": "Official Whatsapp"
+        "member": {
+            "title": "Member"
         },
-        "company": {
-            "title": "Company",
-            "home": "Home",
-            "feature": "Feature",
-            "pricing": "Pricing",
-            "about": "About"
+        "partner": {
+            "title": "Partner"
         },
         "related": {
             "title": "Related Link"

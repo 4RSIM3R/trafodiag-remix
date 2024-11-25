@@ -7,89 +7,78 @@
     },
     "home": {
         "banner": {
-            "title": "Cara Cerdas, Prediktif, dan Andal untuk Memastikan",
-            "health": "Kesehatan Transformator",
-            "subtitle": "Trafodiag menyederhanakan pemantauan transformator dengan analitik prediktif, memanfaatkan data dari tes minyak, kertas, dan gas untuk mencegah masalah dan memperpanjang umur aset."
+            "title": "Cara Cerdas, Prediktif, dan Andal untuk Menjamin",
+            "health": "Kesehatan Trafo",
+            "subtitle": "Trafodiag menyederhanakan pemantauan trafo dengan analitik prediktif, memanfaatkan data dari pengujian minyak, kertas, dan gas untuk mencegah masalah serta memperpanjang usia aset."
         },
         "feature": {
-            "title": "Fitur untuk Meningkatkan Kesehatan dan Performa Transformator",
-            "subtitle": "Permudah diagnosis, dapatkan wawasan real-time, dan optimalkan pemeliharaan dengan alat kuat Trafodiag yang dirancang untuk menjaga transformator Anda tetap berjalan lancar.",
+            "title": "Fitur untuk Meningkatkan Kesehatan dan Kinerja Trafo",
+            "subtitle": "Permudah diagnostik, dapatkan wawasan real-time, dan optimalkan perawatan dengan alat canggih Trafodiag yang dirancang untuk menjaga trafo Anda berjalan lancar.",
             "effectiveness": {
                 "title": "Efektivitas",
-                "subtitle": "Pemeliharaan Hemat Biaya",
-                "description": "Optimalkan jadwal pemeliharaan, kurangi downtime, dan hemat biaya dengan mencegah kegagalan tak terduga."
+                "subtitle": "Perawatan Hemat Biaya",
+                "description": "Optimalkan jadwal perawatan, kurangi waktu henti, dan hemat biaya dengan mencegah kegagalan yang tak terduga."
             },
             "real_time": {
                 "title": "Real-Time",
                 "subtitle": "Pemantauan Real-Time",
-                "description": "Akses data real-time tentang kesehatan transformator, kualitas minyak, dan level gas, semuanya dalam dashboard yang intuitif."
+                "description": "Akses data real-time tentang kesehatan trafo, kualitas minyak, dan tingkat gas, semuanya dalam satu dasbor intuitif."
             },
             "ai_driven": {
                 "title": "Didukung AI",
                 "subtitle": "Diagnostik Berbasis AI",
-                "description": "Manfaatkan kekuatan kecerdasan buatan untuk memprediksi kegagalan transformator sebelum terjadi."
+                "description": "Manfaatkan kecerdasan buatan untuk memprediksi kerusakan trafo sebelum terjadi."
             },
             "comprehensive": {
                 "title": "Komprehensif",
                 "subtitle": "Laporan Komprehensif",
-                "description": "Hasilkan wawasan yang dapat ditindaklanjuti dan laporan terperinci untuk pengambilan keputusan yang tepat."
+                "description": "Hasilkan wawasan yang dapat ditindaklanjuti dan laporan rinci untuk pengambilan keputusan yang lebih baik."
             },
             "user_friendly": {
                 "title": "Mudah Digunakan",
-                "subtitle": "Antarmuka Ramah Pengguna",
-                "description": "Mudah digunakan dengan dashboard yang dapat disesuaikan sesuai kebutuhan Anda."
+                "subtitle": "Antarmuka Mudah Digunakan",
+                "description": "Mudah digunakan dengan dasbor yang dapat disesuaikan sesuai kebutuhan Anda."
             }
         },
         "testimony": {
             "title": "Apa Kata Pelanggan Kami Tentang Trafodiag",
-            "subtitle": "Lihat bagaimana Trafodiag merevolusi manajemen transformator dengan wawasan nyata dari pengguna kami, menyoroti kekuatan analitik prediktif dan pemantauan real-time.",
+            "subtitle": "Lihat bagaimana Trafodiag merevolusi manajemen trafo dengan wawasan nyata dari pengguna kami, yang menyoroti kekuatan analitik prediktif dan pemantauan real-time.",
             "client": {
                 "first": {
-                    "name": "Yoppy Yunhasnawa",
-                    "review": "NextSales berdiri sebagai bukti kekuatan inspirasi desain dan pemilihan warna yang cermat, menawarkan pengalaman yang menarik secara visual dan intuitif bagi pengguna."
+                    "name": "Pelanggan Trafodiag",
+                    "review": "Trafodiag menawarkan solusi unggul untuk manajemen aset dan penilaian kondisi trafo, dengan diagnostik komprehensif yang didukung kecerdasan buatan. Desainnya yang intuitif memungkinkan pengguna mengakses informasi penting dan membuat keputusan dengan cepat dan akurat, menjadikan manajemen trafo lebih efisien dan andal."
                 },
                 "second": {
-                    "name": "Yoppy Yunhasnawa",
-                    "review": "NextSales berdiri sebagai bukti kekuatan inspirasi desain dan pemilihan warna yang cermat, menawarkan pengalaman yang menarik secara visual dan intuitif bagi pengguna."
+                    "name": "Pelanggan Trafodiag",
+                    "review": "Trafodiag memberikan manfaat nyata dalam meningkatkan keandalan dan efisiensi operasional trafo daya melalui analisis dan pengelolaan data inspeksi serta pengujian yang canggih. Dengan prediksi awal kerusakan berbasis AI, Trafodiag memungkinkan pengambilan keputusan perawatan dan operasional yang lebih akurat."
                 }
             },
             "fact": {
                 "title": "FAKTA & ANGKA",
-                "subtitle": "dari pelanggan merekomendasikan Trafodiag sebagai pilihan utama mereka"
+                "subtitle": "rekomendasikan Trafodiag sebagai alat manajemen trafo terbaik Anda"
             },
             "success": {
-                "title": "CERITA SUKSES",
-                "subtitle": "Dalam membuat dashboard ini, inspirasi dari referensi top seperti Comvi Sales dan berbagai desain Dribbble",
+                "title": "KISAH SUKSES",
+                "subtitle": "Pelajari bagaimana Trafodiag membantu PLN Nusantara Power meningkatkan kesehatan dan kinerja trafo mereka",
                 "more": "Baca Studi Kasus"
             }
         },
         "cta": {
-            "title": "Mulai Perjalanan Trafodiag Anda",
-            "subtitle": "Mari mulai mengoptimalkan kesehatan transformator Anda dengan Trafodiag! Ingin mencegah kegagalan, mengurangi downtime, dan menghemat biaya pemeliharaan? Trafodiag adalah solusinya!",
-            "contact": "Hubungi Sales"
+            "title": "Mulai Perjalanan Anda dengan Trafodiag",
+            "subtitle": "Mari mulai mengoptimalkan kesehatan trafo Anda dengan Trafodiag! Apakah Anda ingin mencegah kerusakan, mengurangi waktu henti, dan menghemat biaya perawatan? Trafodiag adalah solusinya!",
+            "contact": "Hubungi Penjualan"
         }
     },
     "footer": {
-        "tagline": "Memberdayakan Pemeliharaan Prediktif untuk Masa Depan yang Andal.",
-        "solutions": {
-            "title": "Solusi",
-            "effective": "Pemeliharaan Efektif",
-            "realtime": "Pemantauan Real-Time",
-            "ai_driven": "Diagnostik Berbasis AI",
-            "comprehensive": "Laporan Komprehensif",
-            "user_friendly": "Antarmuka Ramah Pengguna"
+        "tagline": "Penelitian Produk Vokasi (P2V) Didanai oleh Direktorat Jenderal Pendidikan Vokasi, Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi Republik Indonesia, 2024.",
+        "socmed": {
+            "title": "Media Sosial"
         },
-        "support": {
-            "title": "Dukungan",
-            "email": "Email",
-            "official_whatsapp": "WhatsApp Resmi"
+        "member": {
+            "title": "Anggota"
         },
-        "company": {
-            "title": "Perusahaan",
-            "home": "Beranda",
-            "feature": "Fitur",
-            "pricing": "Harga",
-            "about": "Tentang"
+        "partner": {
+            "title": "Mitra"
         },
         "related": {
             "title": "Tautan Terkait"
