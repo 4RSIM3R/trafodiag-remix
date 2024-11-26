@@ -12,7 +12,7 @@ const navigation = {
     { name: "Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi", href: "https://www.kemdikbud.go.id/" },
   ],
   company: [
-    { name: "Rahman Aziz Prasojo", href: "https://www.linkedin.com/in/rahman-azis-prasojo/" },
+    { name: "Rahman Azis Prasojo", href: "https://www.linkedin.com/in/rahman-azis-prasojo/" },
     { name: "Yoppy Yunhasnawa", href: "https://www.linkedin.com/in/yunhasnawa/" },
     { name: "Muhammad Fahmi Hakim", href: "https://scholar.google.com/citations?user=0KYBSRwAAAAJ&hl=id" },
     { name: "Rohmanita Duanaputri", href: "https://scholar.google.com/citations?user=KCKRCqUAAAAJ&hl=en" },
